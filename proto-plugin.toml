@@ -3,13 +3,11 @@ type = "cli"
 
 [platform.linux]
 download-file = "zap.tar.gz"
-archive-prefix = "protostar-linux"
 archive-prefix = "zap"
 bin-path = "bin/zap"
 
 [platform.macos]
 download-file = "zap.tar.gz"
-archive-prefix = "protostar-linux"
 archive-prefix = "zap"
 bin-path = "bin/zap"
 
