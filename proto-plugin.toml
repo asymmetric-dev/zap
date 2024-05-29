@@ -2,12 +2,12 @@ name = "zap"
 type = "cli"
 
 [platform.linux]
-download-file = "zap-{version}.tar.gz"
+download-file = "zap-v{version}.tar.gz"
 archive-prefix = "zap"
 bin-path = "bin/zap"
 
 [platform.macos]
-download-file = "zap-{version}.tar.gz"
+download-file = "zap-v{version}.tar.gz"
 archive-prefix = "zap"
 bin-path = "bin/zap"
 
