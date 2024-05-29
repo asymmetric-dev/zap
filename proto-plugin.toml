@@ -1,0 +1,20 @@
+name = "zap"
+type = "cli"
+
+[platform.linux]
+download-file = "zap.tar.gz"
+archive-prefix = "protostar-linux"
+archive-prefix = "zap"
+bin-path = "bin/zap"
+
+[platform.macos]
+download-file = "zap.tar.gz"
+archive-prefix = "protostar-linux"
+archive-prefix = "zap"
+bin-path = "bin/zap"
+
+[install]
+download-url = "https://github.com/asymmetric-dev/zap/releases/download/v{version}/{download_file}"
+
+[resolve]
+git-url = "https://github.com/asymmetric-dev/zap"

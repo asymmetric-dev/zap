@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# abort if no command specified...
+if [ -z "$*" ]; then
+echo ''
+echo '  zap - gets you going'
+echo ''
+echo ''
+exit 1;
+fi
