@@ -15,7 +15,7 @@ jobs:
       - name: Package Binary
         run: |
           mkdir -p output/zap
-          cp -R bin output/zap
+          cp -R bin cmds output/zap
           tar -czvf zap-${{ github.ref_name }}.tar.gz -C output zap
 
       - name: Create Release
